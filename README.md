@@ -1,8 +1,8 @@
-# Thomas' Weather Dashboard
+# Weather Dashboard
 
 ## Description.
 
-Thomas' Weather Dashbaord is a (5) Day Weather Forecast application that provides georgraphical weather information when given by a city name using the OpenWeatherMap APIs.
+Weather Dashbaord is a (5) Day Weather Forecast application that provides georgraphical weather information when given by a city name using the OpenWeatherMap APIs.
 
 ## Assigned User Story:
 ```
@@ -52,13 +52,9 @@ The following animation demonstrates the applications functionality: a given cit
 ![A given city name is entered, applicaation displays (5) Weather Forecast .](/images/Weather.GIF)
 
 ## Usage Instructions
-1. Click here to open the [Deployed Application Link:](https://thomascalle.github.io/Thomas-Weather-Dashboard/)
 2. Enter a legitimate city name into search field.
 3. Click "Search" to retrieve current and next (5) day forecast.
 4. Application will display: City Name, Date: DD/MM/YYYY, Display Weather Icon, Temperature °C, Humidity % and Wind: KM/H.
-
-## Deployed Application Link:
-[Deployed Application Link 'Click Here'](https://thomascalle.github.io/Thomas-Weather-Dashboard/)
 
 ## YouTube Walkthrough Video:
 [Click Here to Watch](COMING SOON)

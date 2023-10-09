@@ -1,54 +1,48 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-}
-/* Search history */
-#search-history{
-  font-size: 1.2rem;
-  color: rgba(15, 14, 14, 0.769);
+/* CSS for Weather Dashboard */
 
-}
-#search-button {
-  cursor: pointer;
-}
-#city-history {
-  cursor: pointer;
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-header {
-color: white;
-text-align: center;
-font-size: 1.5rem;
-display: flex;
-flex-direction: column; 
-justify-content: center; 
-align-items: center; 
-background-color: rgba(227, 93, 16, 0.234);
-border: 1px solid rgba(255, 255, 255, 0.394);
-border-radius: 1rem; 
-text-align: center; 
-box-shadow: 0 0 10px rgb(227, 131, 72); 
+/* Global Styles */
+body {
+  background-image: url('../../images/Skyline.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
-body{
-    background-image: url('../../images/DALL-E-Thomas-Skyline.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.container{
-    padding: 20px 70px;
+.container {
+  padding: 20px 70px;
 }
 
 .row {
-  display: flex; 
-  flex-wrap: wrap; 
-  justify-content: center; 
-  align-items: stretch; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
 }
 
+/* Header Styles */
+header {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(227, 93, 16, 0.234);
+  border: 1px solid rgba(255, 255, 255, 0.394);
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgb(227, 131, 72);
+}
+
+/* Card Styles */
 .card-column {
   flex: 1 1 250px;
   margin: 10px;
@@ -58,21 +52,32 @@ body{
 
 .card-block {
   display: flex;
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
-  padding: 10px; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
   border: 1px solid rgba(255, 255, 255, 0.454);
-  border-radius: 1rem; 
-  text-align: center; 
-  min-height: 300px; 
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.988); 
+  border-radius: 1rem;
+  text-align: center;
+  min-height: 300px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.988);
 }
 
-@media screen and (min-width: 768px) {
+/* Search History Styles */
+#search-history {
+  font-size: 1.2rem;
+  color: rgba(15, 14, 14, 0.769);
 }
 
-/* Start: footer section styling */
+#search-button {
+  cursor: pointer;
+}
+
+#city-history {
+  cursor: pointer;
+}
+
+/* Footer Styles */
 .footer {
   background-color: #eb6912;
   padding: 0px;
@@ -84,13 +89,10 @@ body{
   text-align: center;
   font-family: "apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   display: flex;
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
-  padding: 10px; 
-  border: 1px solid rgba(255, 255, 255, 0.454);
-  border-radius: 1rem; 
-  text-align: center; 
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.988); 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
-/* End: footer section styling*/
+
+/* CSS for Weather Dashboard - End */
